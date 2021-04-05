@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-avatar (click)="selectImageSourse()" class="profile-pic">
+    <ion-img [src]="myProfileImage"></ion-img>
+  </ion-avatar>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Gaurab Kumar</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Founder of Instill Learning
+    </ion-card-content>
+  </ion-card>
+</ion-content>
