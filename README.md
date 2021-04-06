@@ -1,16 +1,6 @@
 # Apache Cordova - Build Hybrid Mobile App for Android & iOS
 This is the repository for the Udemy / Instill Learning course Apache Cordova - Build Hybrid Mobile App for Android & iOS. The full course is available from [Udemy](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2).
 
-# Offer
-Use this link to get upto 95% discount on my courses on [Udemy](https://www.udemy.com/user/gaurab-kumar-2/):
-*** Purchases any two courses and get other courses free ***, To get free courses coupon write mail to [courses@instilllearning.dev](courses@instilllearning.dev)
-* [Apache Cordova - Build Hybrid Mobile App for Android & iOS](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2)
-* [Vue 3 Mastery - Router, Vuex, Composition API, Unit Testing](https://www.udemy.com/course/vuejs-mastery/?referralCode=E5BE9F0369E8443597C2)
-* [Ionic Angular - Build Android, iOS & PWA Apps with Ionic 5](https://www.udemy.com/course/ionic-angular-android-ios-pwa/?referralCode=496914FCE019147DA7B4)
-* [Ionic Vue - Build Android, iOS & PWA Apps with Ionic 5](https://www.udemy.com/course/ionic-vue/?referralCode=DFA269E4CB54560A8C2A)
-* Ionic React - Build Android, iOS & PWA Apps with Ionic 5 (Upcoming)
-* Modern JavaScript: ES6,ES7, ES8 and beyond (Upcoming)
-
 ![Apache Cordova](https://img-a.udemycdn.com/course/750x422/3563971_a3d6_3.jpg?FJdxTWdPJpfmlJ0GUigaUO5ZX23rXaijOUoNzbhoQ25wW39EQfd3M7gM07UMzPl64nwovKuetCfzEdBV9ywGvTBnO79o-ed_fZraJ_UIY3xriC1Rdsg2qG1MkqzkcBYk)
 
 What is Apache Cordova? Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies such as HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platform's native development language. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's sensors, data, and network status."
@@ -81,4 +71,14 @@ $ cordova create ex1-cordova-question-answer dev.instilllearning.ex1 Ex1-Cordova
 
 # Instructor
 [Gaurab Kumar](https://www.linkedin.com/in/progaurab)
+
+# Offer
+Use this link to get upto 95% discount on my courses on [Udemy](https://www.udemy.com/user/gaurab-kumar-2/):
+***Purchases any two courses and get other courses free***, To get free courses coupon write mail to [courses@instilllearning.dev](courses@instilllearning.dev)
+* [Apache Cordova - Build Hybrid Mobile App for Android & iOS](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2)
+* [Vue 3 Mastery - Router, Vuex, Composition API, Unit Testing](https://www.udemy.com/course/vuejs-mastery/?referralCode=E5BE9F0369E8443597C2)
+* [Ionic Angular - Build Android, iOS & PWA Apps with Ionic 5](https://www.udemy.com/course/ionic-angular-android-ios-pwa/?referralCode=496914FCE019147DA7B4)
+* [Ionic Vue - Build Android, iOS & PWA Apps with Ionic 5](https://www.udemy.com/course/ionic-vue/?referralCode=DFA269E4CB54560A8C2A)
+* Ionic React - Build Android, iOS & PWA Apps with Ionic 5 (Upcoming)
+* Modern JavaScript: ES6,ES7, ES8 and beyond (Upcoming)
 
