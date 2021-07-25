@@ -1,4 +1,4 @@
-# Apache Cordova - Build Hybrid Mobile App for Android & iOS
+# Apache Cordova -Build Mobile App using HTML CSS & JavaScript
 This is the repository for the Udemy / Instill Learning course Apache Cordova - Build Hybrid Mobile App for Android & iOS. The full course is available from [Udemy](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2).
 
 ![Apache Cordova](https://img-c.udemycdn.com/course/750x422/4203444_4c1f_5.jpg)
