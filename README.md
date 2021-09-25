@@ -75,7 +75,7 @@ $ cordova create ex1-cordova-question-answer dev.instilllearning.ex1 Ex1-Cordova
 # Offer
 Use this link to get upto 95% discount on my courses on [Udemy](https://www.udemy.com/user/gaurab-kumar-2/):
 ***Purchases any two courses and get other courses free***, To get free courses coupon write mail to [courses@instilllearning.dev](courses@instilllearning.dev)
-* [Apache Cordova - Build Hybrid Mobile App for Android & iOS](Upcoming)
+* [Apache Cordova - Build Hybrid Mobile App for Android & iOS](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2)
 * Vue 3 Mastery - Router, Vuex, Composition API, Unit Testing (Upcoming)
 * Ionic Angular - Build Android, iOS & PWA Apps with Ionic 5 (Upcoming)
 * Ionic Vue - Build Android, iOS & PWA Apps with Ionic 5 (Upcoming)
