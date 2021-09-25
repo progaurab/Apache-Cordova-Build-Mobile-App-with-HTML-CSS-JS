@@ -1,7 +1,7 @@
 # Apache Cordova -Build Mobile App using HTML CSS & JavaScript
 This is the repository for the Udemy / Instill Learning course Apache Cordova - Build Hybrid Mobile App for Android & iOS. The full course is available from [Udemy](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2).
 
-![Apache Cordova](https://img-c.udemycdn.com/course/750x422/4203444_4c1f_5.jpg)
+![Apache Cordova](https://img-c.udemycdn.com/course/750x422/3563971_a3d6_3.jpg)
 
 What is Apache Cordova? Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies such as HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platform's native development language. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's sensors, data, and network status."
 
@@ -76,9 +76,9 @@ $ cordova create ex1-cordova-question-answer dev.instilllearning.ex1 Ex1-Cordova
 Use this link to get upto 95% discount on my courses on [Udemy](https://www.udemy.com/user/gaurab-kumar-2/):
 ***Purchases any two courses and get other courses free***, To get free courses coupon write mail to [courses@instilllearning.dev](courses@instilllearning.dev)
 * [Apache Cordova - Build Hybrid Mobile App for Android & iOS](Upcoming)
-* [Vue 3 Mastery - Router, Vuex, Composition API, Unit Testing](Upcoming)
-* [Ionic Angular - Build Android, iOS & PWA Apps with Ionic 5](Upcoming)
-* [Ionic Vue - Build Android, iOS & PWA Apps with Ionic 5] (Upcoming)
+* Vue 3 Mastery - Router, Vuex, Composition API, Unit Testing (Upcoming)
+* Ionic Angular - Build Android, iOS & PWA Apps with Ionic 5 (Upcoming)
+* Ionic Vue - Build Android, iOS & PWA Apps with Ionic 5 (Upcoming)
 * Ionic React - Build Android, iOS & PWA Apps with Ionic 5 (Upcoming)
 * Modern JavaScript: ES6,ES7, ES8 and beyond (Upcoming)
 
