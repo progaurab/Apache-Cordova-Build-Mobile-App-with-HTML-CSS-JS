@@ -13,6 +13,14 @@ Apache Cordova is an open-source mobile development framework. It allows you to 
 * To publish the app on Google Play Store & App Store
 * Learn basics of Ionic 5
 
+# Software - version:
+* Node - v16.14.0
+* npm - 8.3.1 
+* JDK - openjdk version "11.0.12"
+* Apache cordova - 11.0.0
+
+
+
 # Instructions
 This repository has only master branch containing all examples. You can clone the repository and go to individual example's root folder and run it. 
 To run Ex1-Cordova-Clock-Display, use below command:
