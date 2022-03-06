@@ -13,11 +13,14 @@ Apache Cordova is an open-source mobile development framework. It allows you to 
 * To publish the app on Google Play Store & App Store
 * Learn basics of Ionic 5
 
-# Software - version:
+# Software - version[ Last Updated on 06 March 2022]:
 * Node - v16.14.0
 * npm - 8.3.1 
 * JDK - openjdk version "11.0.12"
 * Apache cordova - 11.0.0
+* cordova-android - 10.1.1
+* cordova-ios - 6.2.0
+* Gradle - 7.4
 
 
 
