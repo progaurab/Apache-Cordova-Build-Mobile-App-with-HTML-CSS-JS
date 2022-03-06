@@ -22,7 +22,17 @@ Apache Cordova is an open-source mobile development framework. It allows you to 
 * cordova-ios - 6.2.0
 * Gradle - 7.4
 
-
+# Exerices:
+* cordova create ex1 dev.instilllearning.cordova.ex1 ilHelloWorld 
+* cordova create ex2 dev.instilllearning.cordova.ex2 ilDigitalClock
+* cordova create ex3 dev.instilllearning.cordova.ex3 ilAnalogClock 
+* cordova create ex4 dev.instilllearning.cordova.ex4 ilDeviceInfo       
+* cordova create ex5 dev.instilllearning.cordova.ex5 ilNetworkInfo
+* cordova create ex6 dev.instilllearning.cordova.ex6 ilInAppBrowser
+* cordova create ex7 dev.instilllearning.cordova.ex7 ilCameraPlugin
+* cordova create ex8 dev.instilllearning.cordova.ex8 ilRESTApiUsingFetch
+* cordova create ex9 dev.instilllearning.cordova.ex9 ilCustonPlugin1
+* cordova create ex10 dev.instilllearning.cordova.ex10 ilCustonPlugin2
 
 # Instructions
 This repository has only master branch containing all examples. You can clone the repository and go to individual example's root folder and run it. 
