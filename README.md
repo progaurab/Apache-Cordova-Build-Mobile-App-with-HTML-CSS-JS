@@ -1,9 +1,10 @@
 # Apache Cordova -Build Mobile App using HTML CSS & JavaScript
-This is the repository for the Udemy / Instill Learning course Apache Cordova - Build Hybrid Mobile App for Android & iOS. The full course is available from [Udemy](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2).
+This is the repository for the course "Apache Cordova - Build Hybrid Mobile App for Android & iOS" available on Instill Learning and Udemy. The full course is available from [Udemy](https://www.udemy.com/course/apache-cordova/?referralCode=7254ECD5F74969030BF2).
 
 ![Apache Cordova](https://img-c.udemycdn.com/course/750x422/3563971_a3d6_3.jpg)
 
-What is Apache Cordova? Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies such as HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platform's native development language. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's sensors, data, and network status."
+What is Apache Cordova? 
+Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies such as HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platform's native development language. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's sensors, data, and network status."
 
 # Learning Objectives
 * How to create and build (compile and package) a Cordova project using the CLI (Command Line Interface).
