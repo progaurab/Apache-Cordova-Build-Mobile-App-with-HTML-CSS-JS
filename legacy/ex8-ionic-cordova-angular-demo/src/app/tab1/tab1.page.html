@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Instill Learning
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!activityList">
+    <ion-card>
+          <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+          <ion-card-header>
+            <ion-skeleton-text animated></ion-skeleton-text>
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-card-header>
+    </ion-card> 
+
+    <ion-card>
+        <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+        <ion-card-header>
+          <ion-skeleton-text animated></ion-skeleton-text>
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-card-header>
+    </ion-card> 
+
+    <ion-card>
+        <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+        <ion-card-header>
+          <ion-skeleton-text animated></ion-skeleton-text>
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-card-header>
+    </ion-card> 
+  </div>
+   
+  
+  <ion-card [routerLink]="['activity-detail', activity.id]" button 
+  *ngFor="let activity of (activityList | async)">
+    <ion-img [src]="activity.cropped"></ion-img>
+    <ion-card-header>
+      <ion-card-title>{{activity.name}}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+</ion-content>

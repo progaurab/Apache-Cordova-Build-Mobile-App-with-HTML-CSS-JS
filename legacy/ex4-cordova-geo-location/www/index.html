@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <h1>Instill Learning</h1>
+          <h2>Device Info</h2>
+          <div style="overflow-x:auto;">
+            <table>
+              <tr>
+                <td class="tdbold">latitude</td>
+                <td><p id="latitude"></p></td>
+              </tr>
+              <tr>
+                <td class="tdbold">longitude</td>
+                <td><p id="longitude"></p></td>
+              </tr>
+              <tr>
+                <td class="tdbold">altitude</td>
+                <td><p id="altitude"></p></td>
+              </tr>
+              <tr>
+                  <td class="tdbold">latitude</td>
+                  <td><p id="latitude"></p></td>
+                </tr>
+                <tr>
+                  <td class="tdbold">accuracy</td>
+                  <td><p id="accuracy"></p></td>
+                </tr>
+                <tr>
+                  <td class="tdbold">altitudeAccuracy</td>
+                  <td><p id="altitudeAccuracy"></p></td>
+                </tr>
+                <tr>
+                  <td class="tdbold">heading</td>
+                  <td><p id="heading"></p></td>
+                </tr>
+                <tr>
+                  <td class="tdbold">speed</td>
+                  <td><p id="speed"></p></td>
+                </tr>
+                <tr>
+                    <td class="tdbold">timestamp</td>
+                    <td><p id="timestamp"></p></td>
+                  </tr>
+            </table>
+          </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
