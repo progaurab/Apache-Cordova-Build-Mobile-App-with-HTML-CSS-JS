@@ -1,29 +1,44 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-
-// Wait for the deviceready event before using any of Cordova's device APIs.
-// See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
 document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
     // Cordova is now initialized. Have fun!
 
-    console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
-    document.getElementById('deviceready').classList.add('ready');
+// grab a reference of every hands
+
+// hour hand
+let hourHand = document.querySelector('.hour');
+// minute hand 
+let minuteHand = document.querySelector('.minute');
+// second hand
+let secondHand = document.querySelector('.second');
+
+// function that rotates the hands
+function rotate() {
+  // get the current Date object from which we can obtain the current hour, minute and second
+  const currentDate = new Date();
+
+  // get the hours, minutes and seconds
+  const hours = currentDate.getHours();
+  const minutes = currentDate.getMinutes();
+  const seconds = currentDate.getSeconds();
+
+  // rotating fraction --> how many fraction to rotate for each hand.
+  const secondsFraction = seconds / 60;
+  const minutesFraction = (secondsFraction + minutes) / 60;
+  const hoursFraction = (minutesFraction + hours) / 12;
+
+  // actual deg to rotate
+  const secondsRotate = secondsFraction * 360;
+  const minutesRotate = minutesFraction * 360;
+  const hoursRotate = hoursFraction * 360;
+
+  // apply the rotate style to each element
+  // use backtick `` instead of single quotes ''
+  secondHand.style.transform = `rotate(${secondsRotate}deg)`;
+  minuteHand.style.transform = `rotate(${minutesRotate}deg)`;
+  hourHand.style.transform = `rotate(${hoursRotate}deg)`;
+}
+
+// for every 1000 milliseconds(ie, 1 second) interval, activate the rotate() function.
+setInterval(rotate, 1000);
 }
