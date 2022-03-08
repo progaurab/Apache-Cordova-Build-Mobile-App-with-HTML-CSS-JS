@@ -21,16 +21,19 @@ function rotate() {
   const hours = currentDate.getHours();
   const minutes = currentDate.getMinutes();
   const seconds = currentDate.getSeconds();
+  const day = currentDate.toDateString();
+
+  document.getElementById('day').innerHTML = day;
 
   // rotating fraction --> how many fraction to rotate for each hand.
   const secondsFraction = seconds / 60;
   const minutesFraction = (secondsFraction + minutes) / 60;
   const hoursFraction = (minutesFraction + hours) / 12;
 
-  // actual deg to rotate
-  const secondsRotate = secondsFraction * 360;
-  const minutesRotate = minutesFraction * 360;
-  const hoursRotate = hoursFraction * 360;
+  // actual deg to rotate = 3:15:15
+  const secondsRotate = secondsFraction * 360; 
+  const minutesRotate = minutesFraction * 360; 
+  const hoursRotate = hoursFraction * 360; 
 
   // apply the rotate style to each element
   // use backtick `` instead of single quotes ''
@@ -41,4 +44,6 @@ function rotate() {
 
 // for every 1000 milliseconds(ie, 1 second) interval, activate the rotate() function.
 setInterval(rotate, 1000);
+
+
 }

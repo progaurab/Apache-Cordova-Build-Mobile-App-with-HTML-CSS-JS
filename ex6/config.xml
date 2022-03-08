@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="dev.instilllearning.cordova.ex6" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ilInAppBrowser</name>
-    <description>Apache Cordova - Build Hybrid Mobile App for Android and iOS</description>
-    <author email="courses@instilllearning.dev" href="https://courses.instilllearning.dev/">
-        Instill Learning
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
     </author>
     <content src="index.html" />
     <allow-intent href="http://*/*" />

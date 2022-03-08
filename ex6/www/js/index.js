@@ -1,29 +1,91 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
+var inAppBrowserRef;
 
-// Wait for the deviceready event before using any of Cordova's device APIs.
-// See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
-document.addEventListener('deviceready', onDeviceReady, false);
+function showHelp(url) {
 
-function onDeviceReady() {
-    // Cordova is now initialized. Have fun!
+    var target = "_blank";
 
-    console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
-    document.getElementById('deviceready').classList.add('ready');
+    var options = "location=yes,hidden=yes,beforeload=yes";
+
+    inAppBrowserRef = cordova.InAppBrowser.open(url, target, options);
+
+    inAppBrowserRef.addEventListener('loadstart', loadStartCallBack);
+
+    inAppBrowserRef.addEventListener('loadstop', loadStopCallBack);
+
+    inAppBrowserRef.addEventListener('loaderror', loadErrorCallBack);
+
+    inAppBrowserRef.addEventListener('beforeload', beforeloadCallBack);
+
+    inAppBrowserRef.addEventListener('message', messageCallBack);
+}
+
+function loadStartCallBack() {
+
+    $('#status-message').text("loading please wait ...");
+
+}
+
+function loadStopCallBack() {
+
+    if (inAppBrowserRef != undefined) {
+
+        inAppBrowserRef.insertCSS({ code: "body{font-size: 25px;}" });
+
+        inAppBrowserRef.executeScript({ code: "\
+            var message = 'this is the message';\
+            var messageObj = {my_message: message};\
+            var stringifiedMessageObj = JSON.stringify(messageObj);\
+            webkit.messageHandlers.cordova_iab.postMessage(stringifiedMessageObj);"
+        });
+
+        $('#status-message').text("");
+
+        inAppBrowserRef.show();
+    }
+
+}
+
+function loadErrorCallBack(params) {
+
+    $('#status-message').text("");
+
+    var scriptErrorMesssage =
+       "alert('Sorry we cannot open that page. Message from the server is : "
+       + params.message + "');"
+
+    inAppBrowserRef.executeScript({ code: scriptErrorMesssage }, executeScriptCallBack);
+
+    inAppBrowserRef.close();
+
+    inAppBrowserRef = undefined;
+
+}
+
+function executeScriptCallBack(params) {
+
+    if (params[0] == null) {
+
+        $('#status-message').text(
+           "Sorry we couldn't open that page. Message from the server is : '"
+           + params.message + "'");
+    }
+
+}
+
+function beforeloadCallBack(params, callback) {
+
+    if (params.url.startsWith("http://www.example.com/")) {
+
+        // Load this URL in the inAppBrowser.
+        callback(params.url);
+    } else {
+
+        // The callback is not invoked, so the page will not be loaded.
+        $('#status-message').text("This browser only opens pages on http://www.example.com/");
+    }
+
+}
+
+function messageCallBack(params){
+    $('#status-message').text("message received: "+params.data.my_message);
 }

@@ -11,5 +11,17 @@
     "ecosystem:cordova"
   ],
   "author": "Apache Cordova Team",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^10.1.1",
+    "cordova-plugin-inappbrowser": "^5.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-inappbrowser": {}
+    }
+  }
 }
