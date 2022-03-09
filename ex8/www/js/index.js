@@ -14,7 +14,7 @@ function onDeviceReady() {
     fetch(url)
     .then((resp) => resp.json())
     .then(function(data) {
-        console.log(data);
+        console.log(JSON.stringify(data));
       let authors = data.results;
       return authors.map(function(author) {
         let li = createNode('li'),
