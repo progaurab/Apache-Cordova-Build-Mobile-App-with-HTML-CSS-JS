@@ -29,47 +29,65 @@ The full course is available from
 * cordova create ex1 com.instilllearning.cordova.ex1 ilHelloWorld 
 
 ## Instructions
-This repository has only master branch containing all examples. You can clone the repository and go to individual example's root folder and run it. 
-To run Ex1-Cordova-Clock-Display, use below command:
-```
-$ git clone https://github.com/progaurab/apache-cordova-training
-$ cd apache-cordova-training
+This repository has only master branch containing all examples. You can fork, star and clone the repository and go to individual example's root folder and run it.
+
+#### Step 1: Go to https://github.com and login with your email.
+#### Step 2: Go to the Apache Cordova Repository: https://github.com/progaurab/apache-cordova-training-instilllearning
+#### Step 3: Click on 1) Watch - All Activity 2) Star 3) Fork  the repository (See instruction below)
+![Fork the Repo](images/fork-repo.png)
+
+#### Step 4: 
+```javascript
+$ git clone https://github.com/progaurab/apache-cordova-training-instilllearning.git
+$ cd apache-cordova-training-instilllearning
 $ cd Ex1-Cordova-Clock-Display
-$ cordova platform add android
-$ cordova run android
+```
+#### Step 5: To install Cordova (ignore if installed already)
+```javascript
+$ npm install -g cordova
+```
+#### Step 6:
+```javascript
+$ cordova platform add browser
+$ cordova run browser
 ```
 ## Other usefull commands
-Modify Code and Distribute to all platform
+##### Add other platform
+```
+$ cordova platform add android
+$ cordova platform add ios
+```
+##### Modify Code and Distribute to all platform
 ```
 $ cordova prepare
 ```
 
-Check the cordova requirements
+##### Check the cordova requirements
 ``` 
 $ cordova requirements
 ```
 
-Ganerate Android APK
+##### Ganerate Android APK
 ```
 $ cordova build android
 ```
 
-xcode - Installing the Requirements (for Mac)
+##### xcode - Installing the Requirements (for Mac)
 ```
 $ xcode-select --install
 ```
 
-Deployment Tools allow you to launch iOS apps on an iOS Device from the command-line.
+##### Deployment Tools allow you to launch iOS apps on an iOS Device from the command-line.
 ```
 $ brew install ios-deploy
 ```
 
-CocoaPods tools is needed to build iOS apps.
+##### CocoaPods tools is needed to build iOS apps.
 ```
 $ sudo gem install cocoapods
 ```
 
-Deploying to Simulator - Open ios project in XCode
+##### Deploying to Simulator - Open ios project in XCode
 open ./platforms/ios/ProjectName.xcworkspace/
 for example,
 ```
