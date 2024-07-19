@@ -1,13 +1,14 @@
-## Learn Apache Cordova - Build Mobile Apps for Android & iOS
+## [Learn Apache Cordova - Build Mobile Apps for Android & iOS](https://www.udemy.com/course/draft/6068183/?referralCode=2F36C29350E4E5A09405)
 This is the repository for the course "Learn Apache Cordova - Build Mobile Apps for Android & iOS" available on Instill Learning and Udemy. 
 
 The full course is available from 
 - [Udemy](https://www.udemy.com/course/draft/6068183/?referralCode=2F36C29350E4E5A09405) - Video Course
-- [Instill Learning](https://www.instilllearning.com/courses/apache-cordova) - Live Training + Video Course + Hands-on Real World Projects
-![Apache Cordova](https://img-c.udemycdn.com/course/750x422/3563971_a3d6_3.jpg)
+(https://www.udemy.com/course/draft/6068183/?referralCode=2F36C29350E4E5A09405)
+- [Instill Learning](https://www.instilllearning.com/courses/apache-cordova) - Live Training + Video Course + Hands-on Real World Projects (https://www.instilllearning.com/courses/apache-cordova)
+![Apache Cordova](images/instilllearning-apachecordova.png)
 
 ## What is Apache Cordova? 
-Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies such as HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platform's native development language. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's sensors, data, and network status."
+[Apache Cordova](https://www.instilllearning.com/courses/apache-cordova) is an open-source mobile development framework. It allows you to use standard web technologies such as HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platform's native development language. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's sensors, data, and network status."
 
 ## Learning Objectives
 * How to create and build (compile and package) a Cordova project using the CLI (Command Line Interface).
