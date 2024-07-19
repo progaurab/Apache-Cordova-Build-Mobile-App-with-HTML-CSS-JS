@@ -1,4 +1,4 @@
-# Learn Apache Cordova - Build Mobile Apps for Android & iOS
+## Learn Apache Cordova - Build Mobile Apps for Android & iOS
 This is the repository for the course "Learn Apache Cordova - Build Mobile Apps for Android & iOS" available on Instill Learning and Udemy. 
 
 The full course is available from 
