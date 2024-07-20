@@ -40,7 +40,7 @@ This repository has only master branch containing all examples. You can fork, st
 ```javascript
 $ git clone https://github.com/progaurab/apache-cordova-training-instilllearning.git
 $ cd apache-cordova-training-instilllearning
-$ cd Ex1-Cordova-Clock-Display
+$ cd ex01-cordova-calculator
 ```
 #### Step 5: To install Cordova (ignore if installed already)
 ```javascript
@@ -51,7 +51,14 @@ $ npm install -g cordova
 $ cordova platform add browser
 $ cordova run browser
 ```
+#### Open Android App in Android Studio and Run
+![ex01-cordova-calculator](images/ex01-cordova-calculator.png)
 ## Other usefull commands
+#### Create new cordova application
+```
+$ cordova create ex01-cordova-calculator com.instilllearning.ex01 ILCalculator 
+$ cd ex01-cordova-calculator
+```
 ##### Add other platform
 ```
 $ cordova platform add android

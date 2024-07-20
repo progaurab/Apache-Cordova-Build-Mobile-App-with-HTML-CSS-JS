@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="light.css" id="theme"/>
+</head>
+<body>
+    <div class="grid-container">
+        <input type="text" name="result" class="result" id="result" placeholder="0" readonly/>
+        <input type="button" value="1" onclick="liveScreen(1)" id="one" class="input-button"//>
+        <input type="button" value="2" onclick="liveScreen(2)" id="two" class="input-button"/>
+        <input type="button" value="3" onclick="liveScreen(3)" id="three" class="input-button"/>
+        <input type="button" value="+" onclick="liveScreen('+')" class="input-button"/>
+        <input type="button" value="4" onclick="liveScreen(4)" id="four" class="input-button"/>
+        <input type="button" value="5" onclick="liveScreen(5)" id="five" class="input-button"/>
+        <input type="button" value="6" onclick="liveScreen(6)" id="six" class="input-button"/>
+        <input type="button" value="-" onclick="liveScreen('-')" class="input-button"/>
+        <input type="button" value="7" onclick="liveScreen(7)" id="seven" class="input-button"/>
+        <input type="button" value="8" onclick="liveScreen(8)" id="eight" class="input-button"/>
+        <input type="button" value="9" onclick="liveScreen(9)" id="nine" class="input-button"/>
+        <input type="button" value="*" onclick="liveScreen('*')" class="input-button"/>
+        <input type="button" value="(" onclick="liveScreen('(')" class="input-button"/>
+        <input type="button" value="0" onclick="liveScreen(0)" id="zero" class="input-button"/>
+        <input type="button" value=")" onclick="liveScreen(')')" class="input-button"/>
+        <input type="button" value="/" onclick="liveScreen('/')" class="input-button"/>
+        <input type="button" value="%" onclick="liveScreen('/')" class="input-button"/>
+        <input type="button" value="." onclick="liveScreen(0)" id="zero" class="input-button"/>
+        <input type="button" value="C" onclick="clearScreen()" class="input-button"/>
+        <input type="button" value="⬅" onclick="result.value = result.value.slice(0, -1)" class="input-button"/>
+        <button onclick="switchTheme()" id="dark-mode" class="item6"> Dark Mode </button>
+        <input type="button" value="=" onclick="result.value = eval(result.value)" class="item7"/>
+      </div>
+      <div class="footer">
+        <!-- <img src="instilllearning_logo.png" alt="Logo" class="logo"> -->
+        <a href="https://instilllearning.com">https://instilllearning.com</a>
+        <p style="font-size: 1.7vh;">Live Training + Video Course + Hands-on Real World Projects</p>
+      </div>
+      <script src="index.js" async defer></script>
+</body>
+</html>
