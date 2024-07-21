@@ -25,9 +25,6 @@ The full course is available from
 * cordova-ios - 6.2.0
 * Gradle - 7.4
 
-##  Hands-on Real World Projects:
-* cordova create ex1 com.instilllearning.cordova.ex1 ilHelloWorld 
-
 ## Instructions
 This repository has only master branch containing all examples. You can fork, star and clone the repository and go to individual example's root folder and run it.
 

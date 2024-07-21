@@ -1,0 +1,70 @@
+body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+.task-group {
+    margin-bottom: 20px;
+}
+
+.task-group h2 {
+    font-size: 1.2rem;
+}
+
+.task-group ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+.task-group li.done label {
+    color: #999;
+    text-decoration: line-through;
+  }
+
+.task-group li {
+    text-align: left; 
+}
+.task-group li .task-number{
+    display:none;  
+}
+
+.list-group-item {
+    text-align: left; 
+}
+
+.container {
+    flex-grow: 1; 
+}
+
+.footer {
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo {
+    max-width: 150px;     
+    height: auto;         
+}
+
+.footer a {
+    color: #49085d; 
+    text-decoration: none;
+} 
+
+.clickable {
+    cursor: pointer; /* Indicate that list items are clickable */
+  }
+  
+  .task-group li .task-number{
+      display:none;  /* Hide the task numbers completely */
+  }
+  
+  .list-group-item {
+    text-align: left; 
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mb-4">Todo List</h1>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" id="newTask" placeholder="Add new task"/>
+        <div class="input-group-append">
+          <button class="btn btn-primary" id="addTask">Add</button>
+        </div>
+      </div>
+      <div id="taskGroups"></div>
+    </div>
+    <footer class="footer">
+      <img src="img/instilllearning_logo.jpg" alt="Logo" class="logo" />
+      <br />
+      <a href="https://instilllearning.com">https://instilllearning.com</a>
+    </footer>
+
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
