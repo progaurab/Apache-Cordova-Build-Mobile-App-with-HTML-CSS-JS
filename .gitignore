@@ -7,7 +7,7 @@ yarn-error.log*
 lerna-debug.log*
 .DS_Store
 .vscode
-
+.env
 platforms
 plugins
 
