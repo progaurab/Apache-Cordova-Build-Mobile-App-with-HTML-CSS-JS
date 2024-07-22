@@ -25,6 +25,11 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', UserSchema);
 
+app.get('/', (req, res) => {
+    res.json({message: "Hello World!"});
+})
+
+
 // Register or update user
 app.post('/register', async (req, res) => {
     const { username, mobile } = req.body;
