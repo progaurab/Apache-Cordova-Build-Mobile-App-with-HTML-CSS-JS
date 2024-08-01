@@ -1,8 +1,8 @@
-## [Learn Apache Cordova - Build Mobile Apps for Android & iOS](https://www.udemy.com/course/draft/6068183/?referralCode=2F36C29350E4E5A09405)
+## [Learn Apache Cordova - Build Mobile Apps for Android & iOS](https://www.udemy.com/course/apache-cordova-bootcamp/?referralCode=2F36C29350E4E5A09405)
 This is the repository for the course "Learn Apache Cordova - Build Mobile Apps for Android & iOS" available on Instill Learning and Udemy. 
 
 The full course is available from 
-- [Udemy](https://www.udemy.com/course/draft/6068183/?referralCode=2F36C29350E4E5A09405) - Video Course
+- [Udemy](https://www.udemy.com/course/apache-cordova-bootcamp/?referralCode=2F36C29350E4E5A09405) - Video Course
 (https://www.udemy.com/course/draft/6068183/?referralCode=2F36C29350E4E5A09405)
 - [Instill Learning](https://www.instilllearning.com/courses/apache-cordova) - Live Training + Video Course + Hands-on Real World Projects (https://www.instilllearning.com/courses/apache-cordova)
 ![Apache Cordova](images/instilllearning-apachecordova.png)
@@ -16,7 +16,7 @@ The full course is available from
 * How to handle specific mobile challenges such as touch events, scrolling, styling, page transitions, etc.
 * To publish the app on Google Play Store & App Store
 
-## Software - version[ Last Updated on 18 July 2024]:
+## Software - version[ Last Updated on August 2024]:
 * [Node - v22.5.0](https://nodejs.org/en/download/package-manager) 
 * npm - 10.8.2 
 * [JDK - Microsoft Build of OpenJDK 11.0.23 LTS](https://learn.microsoft.com/en-in/java/openjdk/download#openjdk-11)
@@ -111,8 +111,8 @@ $ cordova create ex1-cordova-question-answer dev.instilllearning.ex1 Ex1-Cordova
 [Gaurab Kumar](https://www.linkedin.com/in/progaurab)
 
 ## Course Offer
-Use this link to get upto 95% discount on my courses on [Udemy](https://www.udemy.com/user/gaurab-kumar-2/):
+Use this link to get upto 95% discount on my courses on [Udemy](https://www.udemy.com/course/apache-cordova-bootcamp/?referralCode=2F36C29350E4E5A09405):
 ***Purchases any two courses and get other courses free***, To get free courses coupon write mail to [courses@instilllearning.com](courses@instilllearning.com)
-* [Learn Apache Cordova - Build Mobile Apps for Android & iOS](https://www.udemy.com/course/draft/6068183/?referralCode=2F36C29350E4E5A09405)
+* [Learn Apache Cordova - Build Mobile Apps for Android & iOS](https://www.udemy.com/course/apache-cordova-bootcamp/?referralCode=2F36C29350E4E5A09405)
 
 
